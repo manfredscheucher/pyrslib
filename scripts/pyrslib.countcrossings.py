@@ -26,8 +26,8 @@ class UnifyRSScript(BasicScript.BasicScript):
 			self.stats[ct] = 0
 		print self.count,"->",ct
 
-		if ct == {4:0,5:1,6:3,7:9,8:18,9:36}[self.n]:
-			self.writer.write(rs)
+		#if ct == {4:0,5:1,6:3,7:9,8:18,9:36}[self.n]:
+		#	self.writer.write(rs)
 		
 		self.stats[ct] += 1
 		if self.DEBUG: print "[D] rs",self.count,"has",ct,"crossings"
